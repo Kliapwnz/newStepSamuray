@@ -6,7 +6,7 @@ export const Dialogs = () => {
         <div className={s.dialogs}>
             <div className={s.dialogItems}>
                 <div className={s.dialog + " " + s.active}>
-                    <NavLink to="/dialogs/1">Anastasiya</NavLink>
+                    <NavLink to={"/dialogs/1"}>Anastasiya</NavLink>
                 </div>
                 <div className={s.dialog}>
                     <NavLink to="/dialogs/2">Natasha</NavLink>
