@@ -9,7 +9,7 @@ export const ProfileInfo = () => {
             <div>
                 ava + description
             </div>
-            </div>
+        </div>
     );
 };
 
