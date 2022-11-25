@@ -9,7 +9,6 @@
 
 }
 
-
 .active {
     color: gold;
 }
@@ -20,5 +19,8 @@
 }
 
 .message{
+
+}
+.dialog {
 
 }
