@@ -24,7 +24,7 @@ export const MyPosts = () => {
             </div>
             <div className={w.posts}>
                 <Post message={postsData[0].message} likeCounts={postsData[0].likeCounts}/>
-                <Post message={postsData[1].message} likeCounts={postsData[2].likeCounts}/>
+                <Post message={postsData[1].message} likeCounts={postsData[1].likeCounts}/>
             </div>
         </div>
     )
