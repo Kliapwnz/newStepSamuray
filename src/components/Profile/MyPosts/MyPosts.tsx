@@ -4,10 +4,10 @@ import {Post} from "./Post/Post";
 
 export const MyPosts = () => {
 
-   let postsData = [
-       {id:1, message:"Hi, how are you?", likeCounts:40},
-       {id:2, message:"It's my first post", likeCounts:25}
-   ]
+    let postsData = [
+        {id: 1, message: "Hi, how are you?", likeCounts: 40},
+        {id: 2, message: "It's my first post", likeCounts: 25}
+    ]
 
     return (
         <div className={w.postsStyle}>
