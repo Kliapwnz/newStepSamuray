@@ -11,7 +11,9 @@ export const MyPosts = () => {
                     <div>
                         <textarea></textarea>
                     </div>
-                    <button>Add Post</button>
+                    <div>
+                        <button>Add Post</button>
+                    </div>
                 </div>
             </div>
             <Post message={"Hi, how are you?"} likeCounts={40}/>
