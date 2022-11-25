@@ -6,7 +6,7 @@ export const MyPosts = () => {
     return (
         <div className={w.postsStyle}>
             <div>
-                my posts
+                <h3>my posts</h3>
                 <div>
                     <div>
                         <textarea></textarea>
