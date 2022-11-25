@@ -8,12 +8,14 @@ export const MyPosts = () => {
             <div>
                 my posts
                 <div>
-                    <textarea></textarea>
+                    <div>
+                        <textarea></textarea>
+                    </div>
                     <button>Add Post</button>
                 </div>
             </div>
-            <Post message={"Hi, how are you?"} likeCounts ={40}/>
-            <Post message={"It's my first post"} likeCounts ={25}/>
+            <Post message={"Hi, how are you?"} likeCounts={40}/>
+            <Post message={"It's my first post"} likeCounts={25}/>
         </div>
     )
 }
