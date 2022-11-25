@@ -39,12 +39,13 @@ export const Dialogs = () => {
     return (
         <div className={s.dialogs}>
             <div className={s.dialogItems}>
-                <DialogItem id={1} name="Anastasiya"/>
-                <DialogItem id={2} name="Natasha"/>
-                <DialogItem id={3} name="Artem"/>
-                <DialogItem id={4} name="Sasha"/>
-                <DialogItem id={5} name="Evgeniy"/>
-                <DialogItem id={6} name="Yuri"/>
+                <DialogItem id={dialogsData[0].id} name={dialogsData[0].name}/>
+                <DialogItem id={dialogsData[1].id} name={dialogsData[1].name}/>
+                <DialogItem id={dialogsData[2].id} name={dialogsData[2].name}/>
+                <DialogItem id={dialogsData[3].id} name={dialogsData[3].name}/>
+                <DialogItem id={dialogsData[4].id} name={dialogsData[4].name}/>
+                <DialogItem id={dialogsData[5].id} name={dialogsData[5].name}/>
+
 
             </div>
             <div className={s.messages}>
