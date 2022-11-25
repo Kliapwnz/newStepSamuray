@@ -3,6 +3,12 @@ import React from "react";
 import {Post} from "./Post/Post";
 
 export const MyPosts = () => {
+
+   let postsData = [
+       {id:1, message:"Hi, how are you?", likeCounts:40},
+       {id:2, message:"It's my first post", likeCounts:25}
+   ]
+
     return (
         <div className={w.postsStyle}>
             <div>
@@ -17,8 +23,8 @@ export const MyPosts = () => {
                 </div>
             </div>
             <div className={w.posts}>
-                <Post message={"Hi, how are you?"} likeCounts={40}/>
-                <Post message={"It's my first post"} likeCounts={25}/>
+                <Post message={postsData[0].message} likeCounts={postsData[0].likeCounts}/>
+                <Post message={postsData[1].message} likeCounts={postsData[2].likeCounts}/>
             </div>
         </div>
     )
